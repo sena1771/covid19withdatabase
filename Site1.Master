@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="covid19.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basit web sitesi</title>
+    <link rel="stylesheet"href="style.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+       <div class="navbar">
+           <div class="logo">
+            <a href="#">X ŞİRKETİ PERSONEL BİLGİSİ</a>   
+           </div>
+           <ul>
+               <li><a href="dEFAULT.aspx" class="active
+                ">Ana Sayfa</a></li>
+               <li><a href="personellistesi.aspx">Personel Listesi</a></li>
+               <li><a href="personelhastalık.aspx">Personel Hastalık Bilgisi</a></li>
+               <li><a href="covidbilgisi.aspx">Personel Covid Bilgisi</a></li>
+               <li><a href="calısmasaati.aspx">Personel Çalışma Saati</a></li>
+               <li><a href="yenipersonelekle.aspx">Yeni Personel Ekle</li>
+                <li><a href="yenihastalık.aspx">Yeni Hastalık Bilgisi Ekle</a></li>
+                <li><a href="yenicalısma.aspx">  Yeni Çalışma Günü Bilgisi Ekle</a></li>
+                <li><a href="ekleme1.aspx">SORGUU</a></li>
+
+           </ul>
+       </div>
+       <div class="center">
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        
+    </div>
+       </div>
+   </div> 
+    </form>
+</body>
+</html>
