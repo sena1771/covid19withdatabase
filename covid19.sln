@@ -16,10 +16,5 @@ Global
 		{65A99871-BD75-4563-9E20-FACE0ADF5D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65A99871-BD75-4563-9E20-FACE0ADF5D02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F5EC0458-67B2-406B-90F1-7DE42BFAB2B0}
-	EndGlobalSection
+	
 EndGlobal
